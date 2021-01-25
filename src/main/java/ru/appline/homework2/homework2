@@ -1,0 +1,8 @@
+package ru.appline.homework2;
+class Numbers{
+    public static void main(String[] args) {
+        double num = 25.25;
+        byte n = 127;
+}
+}
+
