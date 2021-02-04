@@ -12,7 +12,6 @@ public class Matrix {
         int columns = scanner.nextInt();
         int[][] myMatrix = new int[rows][columns];
         for (int i = 0; i < rows; i++) {
-            //System.out.println("Введите элементы " + i+1 + " строки");
             for (int j = 0; j < columns; j++) {
                 System.out.print("Введите элемент myMatrix[" + i + "][" + j + "]:");
                 myMatrix[i][j] = scanner.nextInt();
