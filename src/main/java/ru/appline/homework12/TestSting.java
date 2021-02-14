@@ -14,13 +14,10 @@ public class TestSting {
             System.out.println("Неверный ввод. Запустите программу заново.");
             return;
         }
-        boolean res1;
-        res1=myStr.contains("Java");
-        boolean res2;
-        res2=myStr.startsWith("I like");
-        boolean res3;
-        res3=myStr.endsWith("!!!");
-        if(res1=res2=res3=true){
+        boolean res1=myStr.contains("Java");
+        boolean res2=myStr.startsWith("I like");
+        boolean res3=myStr.endsWith("!!!");
+        if(res1 && res2 && res3) {
             System.out.println(myStr.toUpperCase());
         }
         String res4 = myStr.replaceAll("a","o");
