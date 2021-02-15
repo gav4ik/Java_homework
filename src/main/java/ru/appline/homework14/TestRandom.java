@@ -8,7 +8,7 @@ public class TestRandom {
         int[]myArray=new int[15];
         //диапазон от -20 до 20: считаем -20 входит в диапазон, 20 не входит.
         int a=-20;
-        int b=19;
+        int b=20;
         System.out.println("Получаем массив:");
         for (int i=0;i<myArray.length;i++){
             myArray[i] =  a + (int)(Math.random()*(b - a));
